@@ -1,1 +1,25 @@
-Hello World
+/*Standard Page*/
+.standard-page {
+    background-color: #ffffff;
+    padding: 5%;
+}
+
+/*Page title*/
+.pg-title {
+    font-size: large;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Heading 1*/
+.header1 {
+    font-size: medium;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Body*/
+.body {
+    font-size: small;
+    color: #7c7c7c;
+}

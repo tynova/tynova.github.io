@@ -1,0 +1,6 @@
+.header {
+    background-color: #7c7c7c;
+    padding: 16px 24px 16px 24px;
+    display: flex;
+    flex-direction: row;
+}
