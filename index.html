@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ty Nova: Portfolio - Home</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="components/header/header.css"> -->
+    <link rel="stylesheet" href="components/header/header.css">
 </head>
 <body class="standard-page">
-    <!-- <div id="header"></div> -->
+    <div id="header"></div>
     <main>
         <section>
             <div class="pg-title">Home</div>
@@ -16,15 +16,15 @@
         </section>
     </main>
 
-    <!-- <script src="components/header/header.js"></script> -->
+    <script src="components/header/header.js"></script>
     <script>
         async function loadComponent(url, elementId) {
             const response = await fetch(url);
-            const html = await response.text(); 
+            const html = await response.text();
             document.getElementById(elementId).innerHTML = html;
         }
 
-        <!-- loadComponent('components/header/header.html', 'header'); -->
+        loadComponent('components/header/header.html', 'header');
     </script>
 </body>
 </html>
