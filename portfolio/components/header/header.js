@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const pageTitle = '[title]'
+    var pageTitle = '[title]';
     //Pages
     const homePage = 'Ty Nova: Portfolio - Home';
     const contactPage = 'Ty Nova: Portfolio - Contact Me';
