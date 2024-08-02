@@ -1,6 +1,10 @@
 .header {
-    background-color: #7c7c7c;
+    border: 1px solid #727272;
     padding: 16px 24px 16px 24px;
     display: flex;
     flex-direction: row;
+    gap: 14px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5d00a9;
 }
