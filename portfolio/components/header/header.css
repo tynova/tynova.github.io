@@ -3,7 +3,7 @@
     padding: 16px 24px 16px 24px;
     display: flex;
     flex-direction: row;
-    gap: 14px;
+    gap: medium;
     background-color: none;
 }
 
@@ -11,8 +11,9 @@
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #5d00a9;
-    color: black;
+    color: whitesmoke;
     font-weight: bold;
     padding: 12px;
     border: 1px solid #727272;
+    text-decoration: none;
 }
