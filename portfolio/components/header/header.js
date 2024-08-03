@@ -1,3 +1,4 @@
+const pageTitle = '[title]';
 document.addEventListener('DOMContentLoaded', function() {
     const pageTitle = '[title]';
     //Pages

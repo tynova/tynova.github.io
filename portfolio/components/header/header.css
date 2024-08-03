@@ -3,9 +3,16 @@
     padding: 16px 24px 16px 24px;
     display: flex;
     flex-direction: row;
-    gap: medium;
+    gap: 16px;
     background-color: none;
     border-radius: 5em;
+}
+
+.page-title {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #474747;
+    font-weight: 800;
 }
 
 .nav-button {
