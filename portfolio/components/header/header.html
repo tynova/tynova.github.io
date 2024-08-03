@@ -1,5 +1,5 @@
 <div class="header">
-    <img style="height: 24px; width: 22px;" id="logo" src={logoImage} alt="Black cat logo"></img>
+    <img style="height: 24px; width: 22px;" id="logo-image" src={logoImage} alt="Black cat logo"></img>
     <div class="page-title" id="page-title"></div>
     <nav> 
         <a href="index.html" class="nav-button">Home</a>
@@ -9,10 +9,6 @@
     </nav>
 </div>  
 <script>
-    async function loadComponent(url, elementId) {
-        const response = await fetch(url);
-        const html = await response.text();
-        // Use the variable from header.js
-        document.getElementById("page-title").innerText = pageTitle;
-    }
+    document.getElementById("page-title").innerText = pageTitle;
+    document.getElementById("logo-image").innerText = logoImage;
 </script>
