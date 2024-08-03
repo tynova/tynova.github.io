@@ -1,4 +1,5 @@
 <div class="header">
+    <div class="logo-icon" id="logo"><<a href="https://commons.wikimedia.org/wiki/File:Cat_silhouette_darkgray.svg"></a></div>
     <div class="page-title" id="page-title"></div>
     <nav> 
         <a href="index.html" class="nav-button">Home</a>
@@ -8,9 +9,20 @@
     </nav>
 </div>  
 <script>
-    // Ensure the script runs after the DOM is fully loaded
-    document.addEventListener("DOMContentLoaded", function() {
+    async function loadComponent(url, elementId) {
+        const response = await fetch(url);
+        const html = await response.text();
         // Use the variable from header.js
         document.getElementById("page-title").innerText = pageTitle;
-    });
+    }
+</script>
+
+<script>
+    async function loadComponent(url, elementId) {
+        const response = await fetch(url);
+        const html = await response.text();
+        document.getElementById(elementId).innerHTML = html;
+    }
+
+    loadComponent('portfolio/components/header/header.html', 'header');
 </script>
