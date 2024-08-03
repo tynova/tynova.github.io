@@ -1,11 +1,11 @@
+import logoImage from 'portfolio/assets/cat.png';
+
 const pageTitle = '[title]';
+const homePage = 'Ty Nova: Portfolio - Home';
+const contactPage = 'Ty Nova: Portfolio - Contact Me';
+const projectsPage = 'Ty Nova: Portfolio - Projects';
 document.addEventListener('DOMContentLoaded', function() {
-    const pageTitle = '[title]';
-    //Pages
-    const homePage = 'Ty Nova: Portfolio - Home';
-    const contactPage = 'Ty Nova: Portfolio - Contact Me';
-    const projectsPage = 'Ty Nova: Portfolio - Projects';
-    //Get page title
+    //Assign page title based on url
     let urlPath = toString(window.location.pathname);
     if (urlPath.includes('contact')) {
         pageTitle = contactPage;
