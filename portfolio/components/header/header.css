@@ -1,11 +1,12 @@
 .header {
-    border: 1px solid #727272;
+    border: 1px solid #474747;
     padding: 16px 24px 16px 24px;
     display: flex;
     flex-direction: row;
     gap: 16px;
     background-color: none;
     border-radius: 5em;
+    margin-bottom: 24px;
 }
 
 .logo-icon {
