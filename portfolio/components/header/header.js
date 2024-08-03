@@ -8,16 +8,16 @@ const logoImage = logoImage;
 
 document.addEventListener('DOMContentLoaded', function() {
     //Assign page title based on url
-    let urlPath = toString(window.location.pathname);
-    this.getPageTitle(urlPath);
+    // let urlPath = toString(window.location.pathname);
+    // this.getPageTitle(urlPath);
 
 });
 
-getPageTitle(urlPath) {
-    if (urlPath.includes('contact')) {
-        pageTitle = contactPage;
-    } else if (urlPath.includes('projects')) {
-        pageTitle = projectsPage;
-    } else {pageTitle = homePage;}
-    return pageTitle;  
+// getPageTitle(urlPath) {
+//     if (urlPath.includes('contact')) {
+//         pageTitle = contactPage;
+//     } else if (urlPath.includes('projects')) {
+//         pageTitle = projectsPage;
+//     } else {pageTitle = homePage;}
+//     return pageTitle;  
 }
