@@ -1,4 +1,4 @@
-import logoImage from './portfolio/assets/cat.png';
+import logoImage from '/portfolio/assets/cat.png';
 
 const pageTitle = '[title]';
 const homePage = 'Ty Nova: Portfolio - Home';
