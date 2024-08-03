@@ -28,13 +28,13 @@
     font-weight: 600;
     padding: 8px;
     text-decoration: none;
-    
+    cursor: pointer;
+}
 
-    .hover {
-        background-color: #5d00a9;
-        color: whitesmoke;
-        font-weight: 700;
-        border-radius: 5em;
-        text-decoration: underline;
-    }
+.nav-button:hover {
+    background-color: #5d00a9;
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 5em;
+    text-decoration: underline;
 }
