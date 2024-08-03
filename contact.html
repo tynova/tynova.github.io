@@ -1,1 +1,30 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ty Nova: Portfolio - Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio/components/header/header.css">
+</head>
+<body class="standard-page">
+    <div id="header"></div>
+    <main>
+        <section>
+            <div class="page-title">Contact Me</div>
+            <div class="body">[Contact information]</div>
+        </section>
+    </main>
+
+    <script src="portfolio/components/header/header.js"></script>
+    <script>
+        async function loadComponent(url, elementId) {
+            const response = await fetch(url);
+            const html = await response.text();
+            document.getElementById(elementId).innerHTML = html;
+        }
+
+        loadComponent('portfolio/components/header/header.html', 'header');
+    </script>
+</body>
+</html>
