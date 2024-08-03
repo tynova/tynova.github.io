@@ -4,6 +4,8 @@ const pageTitle = '[title]';
 const homePage = 'Ty Nova: Portfolio - Home';
 const contactPage = 'Ty Nova: Portfolio - Contact Me';
 const projectsPage = 'Ty Nova: Portfolio - Projects';
+const logoImage = logoImage;
+
 document.addEventListener('DOMContentLoaded', function() {
     //Assign page title based on url
     let urlPath = toString(window.location.pathname);
