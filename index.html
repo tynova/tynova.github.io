@@ -18,6 +18,12 @@
 
     <script src="portfolio/components/header/header.js"></script>
     <script>
+        async function loadComponent(url, elementId) {
+            const response = await fetch(url);
+            const html = await response.text();
+            document.getElementById(elementId).innerHTML = html;
+        }
+
         loadComponent('portfolio/components/header/header.html', 'header');
     </script>
 </body>
