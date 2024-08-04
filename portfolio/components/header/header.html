@@ -1,14 +1,20 @@
 <div class="header">
-    <img style="height: 24px; width: 22px;" id="logo-image" src='/portfolio/assets/cat.png' alt="Black cat logo" onclick=""></img>
-    <div class="page-title" id="page-title">Ty Nova</div>
+    <img style="height: 24px; width: 22px;" id="logo-image" src="/portfolio/assets/cat.png" alt="Black cat logo"></img>
+    <div class="page-title">Ty Nova</div>
     <nav> 
-        <a href="index.html" class="nav-button">Home</a>
-        <a href="about.html" class="nav-button">About Me</a>
-        <a href="projects.html" class="nav-button">Projects</a>
-        <a href="contact.html" class="nav-button">Contact</a>
+        <a href="index.html" class="nav-button" id="home">Home</a>
+        <a href="about.html" class="nav-button" id="about">About Me</a>
+        <a href="projects.html" class="nav-button" id="projects">Projects</a>
+        <a href="contact.html" class="nav-button" id="contact">Contact</a>
     </nav>
 </div>  
 <script>
-    document.getElementById("page-title").innerText = pageTitle;
-    document.getElementById("logo-image").innerText = logoImage;
+    function hightlightCurrent() {
+        let pageUrl = windows.location.href;
+        if (pageUrl.includes("about")) {
+            document.getElementById("about").classList.add("selected");
+        } else {
+            document.getElementById("home").classList.add("selected");
+        }
+    }
 </script>

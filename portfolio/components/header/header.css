@@ -36,5 +36,11 @@
     color: whitesmoke;
     font-weight: 700;
     border-radius: 5em;
-    text-decoration: underline;
+}
+
+.selected {
+    background-color: #5d00a9;
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 5em;
 }
