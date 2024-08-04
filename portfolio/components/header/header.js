@@ -19,4 +19,7 @@ class header {
             this.pageTitle = LABEL_PROJECTS;
         } else { this.pageTitle = LABEL_HOME;}
     }
+    getLogo() {
+        return catImage;
+    }
 }
