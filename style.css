@@ -2,21 +2,19 @@
 
 .standard-page {
     background-color: #ffffff;
-    margin: 5%s;
+    padding: 24px;
 }
 
 .page-title {
     font-size: large;
     color: #474747;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 14px;
 }
 
 .header1 {
     font-size: medium;
     color: #474747;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 14px;
 }
 
 .body {
